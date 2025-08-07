@@ -95,13 +95,6 @@ This project is licensed under the MIT License.
 
 
 
----
 
-Let me know if you want:
 
-- A working Jenkins `Jenkinsfile` for pipeline setup  
-- A `Dockerfile` to containerize this app  
-- A `.env` file for external configs  
-- Or GitHub Actions instead of Jenkins
 
-I’m here to help.
