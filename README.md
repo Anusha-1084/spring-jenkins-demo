@@ -1,46 +1,107 @@
 # 🌱 Spring Boot + Jenkins CI/CD Demo
 
-This repository demonstrates a simple **Spring Boot** application integrated with **Jenkins** for Continuous Integration and Deployment (CI/CD).
+This repository demonstrates a **Spring Boot** application integrated with **Jenkins** for Continuous Integration and Continuous Deployment (CI/CD).
 
 ---
 
-## 🚀 Technologies Used
-
-- Java 17+
-- Spring Boot
-- Maven
-- Jenkins
-- Git & GitHub
-
----
-
-## 📁 Project Structure
+## 📦 Project Structure
 
 spring-jenkins-demo/
-├── .mvn/ # Maven wrapper
-├── src/ # Java source code
-│ └── main/java # App code
-│ └── test/java # Unit tests
+├── src/ # Application source code
+├── .mvn/ # Maven wrapper files
+├── .gitignore # Git ignore rules
 ├── mvnw / mvnw.cmd # Maven wrapper scripts
-├── pom.xml # Project dependencies and build config
-├── .gitignore # Git ignored files
+├── pom.xml # Maven project file
 └── README.md # Project documentation
 
 
 
 ---
 
-## 🛠️ How to Run the App Locally
+## 🚀 Features
 
-```bash
-# Clone the repository
-git clone https://github.com/anusha-84/spring-jenkins-demo.git
+- Simple Spring Boot REST API
+- Maven-based build
+- Jenkins pipeline integration
+- Webhook-compatible (for GitHub)
+- Auto build and deploy with Jenkins
 
-# Move into the project directory
-cd spring-jenkins-demo
+---
 
-# Build the project
-mvn clean install
+## ⚙️ Technologies Used
 
-# Run the application
-mvn spring-boot:run
+- Java 17+
+- Spring Boot 3.x
+- Maven
+- Jenkins
+- Git & GitHub
+
+---
+
+## ✅ Setup Instructions
+
+### 🔧 Prerequisites
+
+- Java JDK 17+
+- Maven
+- Jenkins installed and running
+- GitHub account and repository
+
+---
+
+## 🔨 Run the Project
+
+1. **Clone the Repo**  
+   ```bash
+   git clone https://github.com/Anusha-1084/spring-jenkins-demo.git
+   cd spring-jenkins-demo
+Run Locally
+
+
+./mvnw spring-boot:run
+Build the Project
+
+
+./mvnw clean install
+🛠 Jenkins CI/CD Integration
+Create a Jenkins freestyle or pipeline job.
+
+Configure the GitHub repository.
+
+Set up Maven build steps:
+
+clean install
+
+spring-boot:run or deploy steps
+
+(Optional) Set up GitHub webhook to trigger build on push.
+
+📝 .gitignore Included
+Standard .gitignore added to exclude:
+
+IDE configs (.idea, .vscode, .project)
+
+Build folders (target/, build/)
+
+Maven wrapper files
+
+OS-specific temp files
+
+🙋‍♀️ Author
+👩‍💻 Anusha-1084
+
+📄 License
+This project is licensed under the MIT License.
+
+
+
+---
+
+Let me know if you want:
+
+- A working Jenkins `Jenkinsfile` for pipeline setup  
+- A `Dockerfile` to containerize this app  
+- A `.env` file for external configs  
+- Or GitHub Actions instead of Jenkins
+
+I’m here to help.
